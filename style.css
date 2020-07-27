@@ -39,6 +39,13 @@ a.project-tile:hover {
     height: 100vh;
 }
 
+@media screen and (min-height: 480px) {
+    #welcome-section {
+        margin-bottom: 1em;
+        height: unset;
+    }
+}
+
 a#profile-link {
     background: url(https://github.githubassets.com/favicons/favicon.svg) no-repeat left center;
     background-size: contain;
