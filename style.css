@@ -17,3 +17,20 @@ a.project-tile {
 a.project-tile:hover {
     box-shadow: 5px 5px 8px hsl(249, 37%, 30%);
 }
+
+#navbar {
+    position: fixed;
+    top: 2pt;
+    right: 2pt;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: hsl(249, 37%, 30%);
+}
+
+#navbar a:hover {
+    font-weight: bolder;
+}
