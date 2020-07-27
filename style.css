@@ -34,3 +34,9 @@ a.project-tile:hover {
 #navbar a:hover {
     font-weight: bolder;
 }
+
+a#profile-link {
+    background: url(https://github.githubassets.com/favicons/favicon.svg) no-repeat left center;
+    background-size: contain;
+    padding-left: 24px;
+}
