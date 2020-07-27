@@ -3,3 +3,17 @@ html {
     color: hsl(120, 100%, 5%);
     font-family: 'Open-Sans', sans-serif;
 }
+
+a.project-tile {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 15%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 30%);
+    width: 95%;
+    padding: 0 1em 0 1em;
+    margin-bottom: 8px;
+}
+
+a.project-tile:hover {
+    box-shadow: 5px 5px 8px hsl(249, 37%, 30%);
+}
